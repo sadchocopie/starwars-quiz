@@ -83,7 +83,7 @@ var quizQuestions = [
               content: "Stormtroopers to arrest the Rebel Scum"
           }
       ]
-  }
+  },
   {
       question: "The Death Star Plans have been stolen! What is your first response?",
       answers: [
@@ -100,7 +100,7 @@ var quizQuestions = [
               content: "Prepare a boarding party…"
           }
       ]
-  }
+  },
   {
       question: "You’ve arrived to the trading outpost of Kijimi to meet Babu Frik. You are seeking a new weapon, what you do buy?",
       answers: [
@@ -117,7 +117,7 @@ var quizQuestions = [
               content: "E-11 Blaster"
           }
       ]
-  }
+  },
   {
       question: "Ah, you have just had a long day of traveling though the Judland Wastelands of Tatooine. You require some substance… What sustenance do you consume?",
       answers: [
@@ -134,7 +134,7 @@ var quizQuestions = [
               content: "Lighting Shocked Bantha Soup"
           }
       ]
-  }
+  },
   {
       question: "You’re searching through your holobank map to find out where to travel next. What planet do you decide to jump hyperspace to?",
       answers: [
@@ -151,7 +151,7 @@ var quizQuestions = [
               content: "Naboo"
           }
       ]
-  }
+  },
   {
       question: "War has suddenly plagued the Galaxy. As a senator to your planet, you are asked to grant the Chancellor emergency powers to fund a defensive war effort. What do you vote on?",
       answers: [
