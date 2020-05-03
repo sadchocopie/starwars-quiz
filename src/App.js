@@ -4,6 +4,7 @@ import './App.scss';
 import Question from './components/Question';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz'
+import Result from './components/Result'
 
 class App extends Component {
 
@@ -94,6 +95,14 @@ class App extends Component {
   }
 
   // TODO: need to re-write the function for ABCDEF types
+  /*
+  A: Jedi
+  B: Bounty Hunter
+  C: Sith Lord
+  D: Hutt Crime Lord
+  E: Droid
+  F: Spice Smuggler
+  */
   setResults (result) {
     if (result.length === 1) {
       this.setState({ result: result[0] });
