@@ -48,7 +48,7 @@ class App extends Component {
     return array;
   }
 
-  // object composition because user could click more than once before selecting an final answer
+  // object composition
   setUserAnswer(answer) {
     // fuctional setState to access previous state "answer",
     this.setState((state) => ({
@@ -67,7 +67,8 @@ class App extends Component {
     if(this.state.questionId < quizQuestions.length) {
       setTimeout(() => this.setNextQuestion(),300);
     } else {
-      // do nothing
+      //delay before showing result
+      setTimeout(() => this.setResults(this.getResults()), 300);
     }
   }
 
@@ -83,6 +84,41 @@ class App extends Component {
     });
   }
 
+  getResults() {
+    const answersCount = this.state.answersCount;
+    const answersCountKeys = Object.keys(answersCount);
+    const answersCountValues = answersCountKeys.map((key) => answersCount[key]);
+    const maxAnswerCount = Math.max.apply(null, answersCountValues);
+
+    return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
+  }
+
+  // TODO: need to re-write the function for ABCDEF types
+  setResults (result) {
+    if (result.length === 1) {
+      this.setState({ result: result[0] });
+    } else {
+      this.setState({ result: 'Undetermined' });
+    }
+  }
+
+  renderQuiz() {
+    return (
+      <Quiz
+        answer={this.state.answer}
+        answerOptions={this.state.answerOptions}
+        questionId={this.state.questionId}
+        question={this.state.question}
+        questionTotal={quizQuestions.length}
+        onAnswerSelected={this.handleAnswerSelected}
+        />
+    );
+  }
+
+  renderResult() {
+    return <Result quizResult={this.state.result} />;
+  }
+
 
   render() {
     return (
@@ -91,14 +127,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <h2>React Quiz</h2>
-        <Quiz
-          answer={this.state.answer}
-          answerOptions={this.state.answerOptions}
-          questionId={this.state.questionId}
-          question={this.state.question}
-          questionTotal={quizQuestions.length}
-          onAnswerSelected={this.handleAnswerSelected}
-          />
+        {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
     );
   }
