@@ -1,4 +1,16 @@
+![](./src/assets/BannerOrange.png)
+
+# Star Wars Personality Quiz
+## Who are you in Star Wars? Choose your destiny! Play at
+https://sadchocopie.github.io/starwars-quiz
+
+## Team:
+- [Daniel Aley](https://github.com/CMYKPerlinNoise) Graphic Designer
+- [Harriet Wang](https://github.com/sadchocopie) Front End Developer
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
