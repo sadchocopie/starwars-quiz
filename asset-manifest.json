@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/starwars-quiz/static/css/main.4eb24117.chunk.css",
-    "main.js": "/starwars-quiz/static/js/main.0628ca34.chunk.js",
-    "main.js.map": "/starwars-quiz/static/js/main.0628ca34.chunk.js.map",
-    "runtime-main.js": "/starwars-quiz/static/js/runtime-main.61f19e04.js",
-    "runtime-main.js.map": "/starwars-quiz/static/js/runtime-main.61f19e04.js.map",
-    "static/js/2.9fd50889.chunk.js": "/starwars-quiz/static/js/2.9fd50889.chunk.js",
-    "static/js/2.9fd50889.chunk.js.map": "/starwars-quiz/static/js/2.9fd50889.chunk.js.map",
+    "main.css": "/starwars-quiz/static/css/main.26df45df.chunk.css",
+    "main.js": "/starwars-quiz/static/js/main.7bfb30fb.chunk.js",
+    "main.js.map": "/starwars-quiz/static/js/main.7bfb30fb.chunk.js.map",
+    "runtime-main.js": "/starwars-quiz/static/js/runtime-main.38eb46aa.js",
+    "runtime-main.js.map": "/starwars-quiz/static/js/runtime-main.38eb46aa.js.map",
+    "static/js/2.618a881c.chunk.js": "/starwars-quiz/static/js/2.618a881c.chunk.js",
+    "static/js/2.618a881c.chunk.js.map": "/starwars-quiz/static/js/2.618a881c.chunk.js.map",
     "index.html": "/starwars-quiz/index.html",
-    "precache-manifest.e71e517122788b5bb3e7028e55e23f34.js": "/starwars-quiz/precache-manifest.e71e517122788b5bb3e7028e55e23f34.js",
+    "precache-manifest.7f64f39ba37b58ff5e4c5272472bde9d.js": "/starwars-quiz/precache-manifest.7f64f39ba37b58ff5e4c5272472bde9d.js",
     "service-worker.js": "/starwars-quiz/service-worker.js",
-    "static/css/main.4eb24117.chunk.css.map": "/starwars-quiz/static/css/main.4eb24117.chunk.css.map",
-    "static/js/2.9fd50889.chunk.js.LICENSE.txt": "/starwars-quiz/static/js/2.9fd50889.chunk.js.LICENSE.txt",
+    "static/css/main.26df45df.chunk.css.map": "/starwars-quiz/static/css/main.26df45df.chunk.css.map",
+    "static/js/2.618a881c.chunk.js.LICENSE.txt": "/starwars-quiz/static/js/2.618a881c.chunk.js.LICENSE.txt",
     "static/media/BannerBlue.png": "/starwars-quiz/static/media/BannerBlue.5faf5cb4.png",
     "static/media/BannerOrange.png": "/starwars-quiz/static/media/BannerOrange.015d7b5b.png",
     "static/media/BannerPINK.png": "/starwars-quiz/static/media/BannerPINK.512ea495.png",
@@ -24,9 +24,9 @@
     "static/media/index.scss": "/starwars-quiz/static/media/universe.dd46989c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.61f19e04.js",
-    "static/js/2.9fd50889.chunk.js",
-    "static/css/main.4eb24117.chunk.css",
-    "static/js/main.0628ca34.chunk.js"
+    "static/js/runtime-main.38eb46aa.js",
+    "static/js/2.618a881c.chunk.js",
+    "static/css/main.26df45df.chunk.css",
+    "static/js/main.7bfb30fb.chunk.js"
   ]
 }
