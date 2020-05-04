@@ -1,5 +1,4 @@
 import React from 'react';
-import { Twitter } from 'react-social-sharing'
 
 function Footer() {
   return (
