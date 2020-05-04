@@ -106,40 +106,47 @@ class App extends Component {
   setResults (result) {
     if (result.length === 1) {
       this.setState({ result: result[0] });
-    } else {
-      this.setState({ result: 'Undetermined' });
+    }
+    else if (result.indexOf('Jedi') === -1) {
+      this.setState({ result: 'Spice Smuggler' });
+    }
+    else if (result.indexOf('Bounty Hunter') === -1) {
+      this.setState({ result: 'Droid' });
+    }
+    else {
+      this.setState({ result: 'Hutt Crime Lord' });
     }
   }
 
-  renderQuiz() {
-    return (
-      <Quiz
-        answer={this.state.answer}
-        answerOptions={this.state.answerOptions}
-        questionId={this.state.questionId}
-        question={this.state.question}
-        questionTotal={quizQuestions.length}
-        onAnswerSelected={this.handleAnswerSelected}
-        />
-    );
-  }
+renderQuiz() {
+  return (
+    <Quiz
+      answer={this.state.answer}
+      answerOptions={this.state.answerOptions}
+      questionId={this.state.questionId}
+      question={this.state.question}
+      questionTotal={quizQuestions.length}
+      onAnswerSelected={this.handleAnswerSelected}
+      />
+  );
+}
 
-  renderResult() {
-    return <Result quizResult={this.state.result} />;
-  }
+renderResult() {
+  return <Result quizResult={this.state.result} />;
+}
 
 
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-        <h2>React Quiz</h2>
-        {this.state.result ? this.renderResult() : this.renderQuiz()}
-      </div>
-    );
-  }
+render() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+      <h2>What are you in the Star Wars Universe?</h2>
+      {this.state.result ? this.renderResult() : this.renderQuiz()}
+    </div>
+  );
+}
 }
 
 export default App;
