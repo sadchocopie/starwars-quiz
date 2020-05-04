@@ -47,6 +47,12 @@ body {
   }
 }
 
+.card {
+  @media screen and (max-width: 400px) {
+width: 175px;
+  }
+}
+
 /* Result Component */
 .result {
   padding: 1.5rem 2.5rem;
@@ -177,8 +183,10 @@ body {
   a {
     color: inherit;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     font-size: 12px;
+    bottom: 0%;
+    left: 50%;
   }
 }
 
