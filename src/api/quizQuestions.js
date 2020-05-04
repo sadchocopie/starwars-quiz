@@ -17,7 +17,7 @@ var quizQuestions = [
       ]
   },
   {
-      question: "You start your pod racer and are about to finish the race. When you are about to finish, your pod racer begins to loose power. To save your pod, you…",
+      question: "You start your pod racer and are about to finish the race. When you are about to finish, your pod racer begins to lose power. To save your pod, you…",
       answers: [
           {
               type: "Jedi",
@@ -119,7 +119,7 @@ var quizQuestions = [
       ]
   },
   {
-      question: "Ah, you have just had a long day of traveling though the Judland Wastelands of Tatooine. You require some substance… What sustenance do you consume?",
+      question: "Ah, you have just had a long day of traveling though the Judland Wastelands of Tatooine. You require some sustenance… What do you consume?",
       answers: [
           {
               type: "Jedi",

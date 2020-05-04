@@ -6,7 +6,7 @@ function Share(props) {
   if (props.result) {
     return (
       <>
-      <h3>Share your result!</h3>
+      <h3 className="shareText">Share your result!</h3>
       <Twitter solid small message={`I am a ${props.result}! What are you?`} link="https://sadchocopie.github.io/starwars-quiz"/>
       <Facebook solid small link="https://sadchocopie.github.io/starwars-quiz"/>
       <Mail solid small subject={`I am a ${props.result}! What are you?`} link="http://sharingbuttons.io" style={{background:'red'}}/>
