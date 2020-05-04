@@ -1,26 +1,32 @@
 {
   "files": {
     "main.css": "/starwars-quiz/static/css/main.4eb24117.chunk.css",
-    "main.js": "/starwars-quiz/static/js/main.e892bc7e.chunk.js",
-    "main.js.map": "/starwars-quiz/static/js/main.e892bc7e.chunk.js.map",
+    "main.js": "/starwars-quiz/static/js/main.0628ca34.chunk.js",
+    "main.js.map": "/starwars-quiz/static/js/main.0628ca34.chunk.js.map",
     "runtime-main.js": "/starwars-quiz/static/js/runtime-main.61f19e04.js",
     "runtime-main.js.map": "/starwars-quiz/static/js/runtime-main.61f19e04.js.map",
-    "static/js/2.b73e89f3.chunk.js": "/starwars-quiz/static/js/2.b73e89f3.chunk.js",
-    "static/js/2.b73e89f3.chunk.js.map": "/starwars-quiz/static/js/2.b73e89f3.chunk.js.map",
+    "static/js/2.9fd50889.chunk.js": "/starwars-quiz/static/js/2.9fd50889.chunk.js",
+    "static/js/2.9fd50889.chunk.js.map": "/starwars-quiz/static/js/2.9fd50889.chunk.js.map",
     "index.html": "/starwars-quiz/index.html",
-    "precache-manifest.2f575dc8a53668897273b62bca997e55.js": "/starwars-quiz/precache-manifest.2f575dc8a53668897273b62bca997e55.js",
+    "precache-manifest.e71e517122788b5bb3e7028e55e23f34.js": "/starwars-quiz/precache-manifest.e71e517122788b5bb3e7028e55e23f34.js",
     "service-worker.js": "/starwars-quiz/service-worker.js",
     "static/css/main.4eb24117.chunk.css.map": "/starwars-quiz/static/css/main.4eb24117.chunk.css.map",
-    "static/js/2.b73e89f3.chunk.js.LICENSE.txt": "/starwars-quiz/static/js/2.b73e89f3.chunk.js.LICENSE.txt",
+    "static/js/2.9fd50889.chunk.js.LICENSE.txt": "/starwars-quiz/static/js/2.9fd50889.chunk.js.LICENSE.txt",
     "static/media/BannerBlue.png": "/starwars-quiz/static/media/BannerBlue.5faf5cb4.png",
     "static/media/BannerOrange.png": "/starwars-quiz/static/media/BannerOrange.015d7b5b.png",
     "static/media/BannerPINK.png": "/starwars-quiz/static/media/BannerPINK.512ea495.png",
+    "static/media/BountyHunter.png": "/starwars-quiz/static/media/BountyHunter.a55678fc.png",
+    "static/media/Droid.png": "/starwars-quiz/static/media/Droid.357cd21a.png",
+    "static/media/Hutt.png": "/starwars-quiz/static/media/Hutt.cb3c7f3d.png",
+    "static/media/Jedi.png": "/starwars-quiz/static/media/Jedi.d8e1e51c.png",
+    "static/media/Sith.png": "/starwars-quiz/static/media/Sith.9fe1810f.png",
+    "static/media/Smuggler.png": "/starwars-quiz/static/media/Smuggler.3344c1f3.png",
     "static/media/index.scss": "/starwars-quiz/static/media/universe.dd46989c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.61f19e04.js",
-    "static/js/2.b73e89f3.chunk.js",
+    "static/js/2.9fd50889.chunk.js",
     "static/css/main.4eb24117.chunk.css",
-    "static/js/main.e892bc7e.chunk.js"
+    "static/js/main.0628ca34.chunk.js"
   ]
 }
