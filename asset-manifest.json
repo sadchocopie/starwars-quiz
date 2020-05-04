@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/starwars-quiz/static/css/main.752c9d56.chunk.css",
+    "main.css": "/starwars-quiz/static/css/main.91951dea.chunk.css",
     "main.js": "/starwars-quiz/static/js/main.341faa07.chunk.js",
     "main.js.map": "/starwars-quiz/static/js/main.341faa07.chunk.js.map",
     "runtime-main.js": "/starwars-quiz/static/js/runtime-main.38eb46aa.js",
@@ -8,9 +8,9 @@
     "static/js/2.ac403027.chunk.js": "/starwars-quiz/static/js/2.ac403027.chunk.js",
     "static/js/2.ac403027.chunk.js.map": "/starwars-quiz/static/js/2.ac403027.chunk.js.map",
     "index.html": "/starwars-quiz/index.html",
-    "precache-manifest.1a54bc577d1ab4af2d6810fe80ecfee3.js": "/starwars-quiz/precache-manifest.1a54bc577d1ab4af2d6810fe80ecfee3.js",
+    "precache-manifest.248b3862e2141fe173f63fb4e085f658.js": "/starwars-quiz/precache-manifest.248b3862e2141fe173f63fb4e085f658.js",
     "service-worker.js": "/starwars-quiz/service-worker.js",
-    "static/css/main.752c9d56.chunk.css.map": "/starwars-quiz/static/css/main.752c9d56.chunk.css.map",
+    "static/css/main.91951dea.chunk.css.map": "/starwars-quiz/static/css/main.91951dea.chunk.css.map",
     "static/js/2.ac403027.chunk.js.LICENSE.txt": "/starwars-quiz/static/js/2.ac403027.chunk.js.LICENSE.txt",
     "static/media/BannerBlue.png": "/starwars-quiz/static/media/BannerBlue.5faf5cb4.png",
     "static/media/BannerOrange.png": "/starwars-quiz/static/media/BannerOrange.015d7b5b.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.38eb46aa.js",
     "static/js/2.ac403027.chunk.js",
-    "static/css/main.752c9d56.chunk.css",
+    "static/css/main.91951dea.chunk.css",
     "static/js/main.341faa07.chunk.js"
   ]
 }
