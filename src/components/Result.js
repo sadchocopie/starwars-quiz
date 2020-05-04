@@ -3,7 +3,7 @@ import React from 'react';
 function Result(props) {
   return (
     <div className="result">
-      <h2>You are a <strong>{props.quizResult}</strong>!</h2>
+      <h1>You are a...<strong>{props.quizResult}</strong>!</h1>
     </div>
   );
 }
