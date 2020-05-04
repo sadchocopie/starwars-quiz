@@ -5,8 +5,6 @@ import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz'
 import Result from './components/Result'
 import Hero from './components/Hero'
-import Footer from './components/Footer'
-import Share from './components/Share'
 
 class App extends Component {
 
@@ -155,7 +153,7 @@ class App extends Component {
       <div className="App">
         <Hero></Hero>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
-        <Footer></Footer>
+        <div className="footer">Created by Harriet and Daniel</div>
       </div>
     );
   }

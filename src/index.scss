@@ -142,6 +142,15 @@ body {
   border-color: #8bc53f;
 }
 
+.footer {
+  font-family: monospace;
+  padding-top: 1vh;
+  color: $text-primary;
+   a {
+    color: inherit;
+  }
+}
+
 /* Animation */
 .fade-enter {
   opacity: 0;
