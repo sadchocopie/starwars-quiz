@@ -1,5 +1,6 @@
 import React from 'react';
 import { CSSTransitionGroup } from 'react-transition-group';
+import Card from './Card';
 
 function Result(props) {
   return (
@@ -14,6 +15,7 @@ function Result(props) {
         transitionAppear
         transitionAppearTimeout={800}>
         <h1 className="result-text">You are...<strong>a {props.quizResult}</strong>!</h1>
+        <Card personality={props.quizResult}></Card>
       </CSSTransitionGroup>
     </div>
   );
