@@ -18,7 +18,7 @@ class Hero extends Component {
       <div>
       <header className="App-header">
       <img className="App-header" src={this.state.images[randomInt]}/>
-      <h1 className="hero-text">What are you in the Star Wars Universe?</h1>
+      <h1 className="hero-text">Choose Your Destiny</h1>
       </header>
       </div>
     );

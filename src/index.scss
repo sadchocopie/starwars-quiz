@@ -14,14 +14,22 @@ body {
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background: $primary-color;
   font-family: sans-serif;
   color: $text-primary;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("./assets/universe.jpg");
   background-repeat:repeat;
   background-size:contain;
+}
+
+.hero-text {
+  position: absolute;
+  top: calc(5px + 2vw);
+  font-size: calc(14px + 2vw);
+  color: $primary-color;
+  font-family: 'Star Jedi';
+  font-weight:400;
+  -webkit-text-stroke: 2px $text-primary;
 }
 
 .container {
@@ -41,6 +49,12 @@ body {
 /* Result Component */
 .result {
   padding: 1.5rem 4.5rem;
+}
+
+.result-text {
+  color: $text-primary;
+  font-weight:lighter;
+  font-style: italic;
 }
 
 /* Quiz Component */
@@ -158,10 +172,4 @@ body {
 .fade-appear.fade-appear-active {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
-}
-
-.hero-text {
-  position: absolute;
-  top: calc(5px + 2vw);
-  font-size: calc(14px + 2vw);
 }
