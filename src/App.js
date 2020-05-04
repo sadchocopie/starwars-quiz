@@ -118,35 +118,40 @@ class App extends Component {
     }
   }
 
-renderQuiz() {
-  return (
-    <Quiz
-      answer={this.state.answer}
-      answerOptions={this.state.answerOptions}
-      questionId={this.state.questionId}
-      question={this.state.question}
-      questionTotal={quizQuestions.length}
-      onAnswerSelected={this.handleAnswerSelected}
-      />
-  );
-}
+  renderQuiz() {
+    return (
+      <Quiz
+        answer={this.state.answer}
+        answerOptions={this.state.answerOptions}
+        questionId={this.state.questionId}
+        question={this.state.question}
+        questionTotal={quizQuestions.length}
+        onAnswerSelected={this.handleAnswerSelected}
+        />
+    );
+  }
 
-renderResult() {
-  return <Result quizResult={this.state.result} />;
-}
+  renderResult() {
+    return <Result quizResult={this.state.result} />;
+  }
 
+  // <header className="App-header">
+  //   <img src={logo} className="App-logo" alt="logo" />
+  // </header>
+  // <h2>What are you in the Star Wars Universe?</h2>
 
-render() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <h2>What are you in the Star Wars Universe?</h2>
-      {this.state.result ? this.renderResult() : this.renderQuiz()}
-    </div>
-  );
-}
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+            <div class="hero-text">
+              <h1>What are you in the Star Wars Universe?</h1>
+            </div>
+        </header>
+        {this.state.result ? this.renderResult() : this.renderQuiz()}
+      </div>
+    );
+  }
 }
 
 export default App;
