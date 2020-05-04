@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import Question from './components/Question';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz'
 import Result from './components/Result'
+import Hero from './components/Hero'
 
 class App extends Component {
 
@@ -31,6 +31,13 @@ class App extends Component {
       question: quizQuestions[0].question,
       answerOptions:shuffledAnswerOptions[0]
     });
+
+    var random= Math.floor(Math.random() * 4) + 0;
+    var bigSize = ["url('./assets/BannerBlue.png')",
+    "url('./assets/BannerOrange.png')",
+    "url('./assets/BannerPINK.png')",
+    "url('./assets/BannerViolet.png')"];
+    document.getElementsByClassName("App-header")[0].style.backgroundImage=bigSize[random];
   }
 
   //randomise array (the order of the answer options)
@@ -94,15 +101,6 @@ class App extends Component {
     return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
   }
 
-  // TODO: need to re-write the function for ABCDEF types
-  /*
-  A: Jedi
-  B: Bounty Hunter
-  C: Sith Lord
-  D: Hutt Crime Lord
-  E: Droid
-  F: Spice Smuggler
-  */
   setResults (result) {
     if (result.length === 1) {
       this.setState({ result: result[0] });
@@ -135,19 +133,25 @@ class App extends Component {
     return <Result quizResult={this.state.result} />;
   }
 
+  randombg(){
+    var random= Math.floor(Math.random() * 4) + 0;
+    var bigSize = ["url('./assets/BannerBlue.png')",
+    "url('./assets/BannerOrange.png')",
+    "url('./assets/BannerPINK.png')",
+    "url('./assets/BannerViolet.png')"];
+    document.getElementsByClassName[0]("App-header").style.backgroundImage=bigSize[random];
+    document.getElementById("hero-text").style.color="black";
+  }
   // <header className="App-header">
-  //   <img src={logo} className="App-logo" alt="logo" />
+  //   <div class="hero-text">
+  //     <h1>What are you in the Star Wars Universe?</h1>
+  //   </div>
   // </header>
-  // <h2>What are you in the Star Wars Universe?</h2>
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-            <div class="hero-text">
-              <h1>What are you in the Star Wars Universe?</h1>
-            </div>
-        </header>
+        <Hero></Hero>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
     );
