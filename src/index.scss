@@ -9,11 +9,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -21,8 +16,9 @@ code {
 body {
   margin: 0;
   padding: 0;
-  background: #eee;
+  background: $primary-color;
   font-family: sans-serif;
+  color: $text-primary;
 }
 
 .container {
@@ -41,35 +37,35 @@ body {
 
 /* Result Component */
 .result {
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 4.5rem;
 }
 
 /* Quiz Component */
 .answerOptions {
-  margin: 0;
+  margin: 0 4.5rem;
   padding: 0;
   list-style: none;
 }
 
 /* QuestionCount Component */
 .questionCount {
-  padding: 1.5rem 2.5rem 0;
+  padding: 1.5rem 4.5rem 0;
   font-size: 14px;
+  text-align: left;
 }
 
 /* Question Component */
 .question {
   margin: 0;
-  padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+  padding: 0.5rem 2.5rem 1.5rem 4.5rem;
 }
 
 /* AnswerOption Component */
 .answerOption {
   border-top: 1px solid #eee;
-}
-
-.answerOption:hover {
-  background-color: #eefbfe;
+  &:hover {
+      background-color: #eefbfe;
+  }
 }
 
 .radioCustomButton {
@@ -92,27 +88,40 @@ body {
   padding: 1.5rem 2.5rem 1.5rem 5rem;
   font-size: 16px;
   line-height: 1.5;
+  color:$text-primary;
+}
+.radioCustomLabel:hover {
+    -webkit-box-shadow:inset 0px 0px 0px 1px $accent;
+-moz-box-shadow:inset 0px 0px 0px 1px $accent;
+box-shadow:inset 0px 0px 0px 1px $accent;
+  background-color: $primary-hover;
+  color:$accent;
+}
+
+.radioCustomLabel:active {
+  background-color: $primary-active;
+  color:$accent;
 }
 
 .radioCustomButton ~ .radioCustomLabel:before {
   position: absolute;
   top: 20px;
-  left: 38px;
+  left: 48px;
   width: 28px;
   height: 28px;
   content: '';
+  visibility: hidden;
   display: inline-block;
   vertical-align: middle;
   background: #fff;
-  border: 1px solid #bbb;
+  border: 0px solid #bbb;
   border-radius: 50%;
   transition: all 0.3s;
 }
 
 .radioCustomButton:checked ~ .radioCustomLabel:before {
   content: '';
-  background: #8bc53f url(./svg/check.svg) no-repeat;
-  background-size: 27px;
+    background: $accent;
   border-color: #8bc53f;
 }
 
