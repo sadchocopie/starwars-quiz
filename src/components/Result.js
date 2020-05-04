@@ -8,7 +8,6 @@ function Result(props) {
     <div>
       <CSSTransitionGroup
         className="result"
-        className="container"
         component="div"
         transitionName="fade"
         transitionEnterTimeout={800}
