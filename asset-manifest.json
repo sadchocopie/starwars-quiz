@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/starwars-quiz/static/css/main.9bb871de.chunk.css",
-    "main.js": "/starwars-quiz/static/js/main.7bfb30fb.chunk.js",
-    "main.js.map": "/starwars-quiz/static/js/main.7bfb30fb.chunk.js.map",
+    "main.css": "/starwars-quiz/static/css/main.752c9d56.chunk.css",
+    "main.js": "/starwars-quiz/static/js/main.341faa07.chunk.js",
+    "main.js.map": "/starwars-quiz/static/js/main.341faa07.chunk.js.map",
     "runtime-main.js": "/starwars-quiz/static/js/runtime-main.38eb46aa.js",
     "runtime-main.js.map": "/starwars-quiz/static/js/runtime-main.38eb46aa.js.map",
-    "static/js/2.618a881c.chunk.js": "/starwars-quiz/static/js/2.618a881c.chunk.js",
-    "static/js/2.618a881c.chunk.js.map": "/starwars-quiz/static/js/2.618a881c.chunk.js.map",
+    "static/js/2.ac403027.chunk.js": "/starwars-quiz/static/js/2.ac403027.chunk.js",
+    "static/js/2.ac403027.chunk.js.map": "/starwars-quiz/static/js/2.ac403027.chunk.js.map",
     "index.html": "/starwars-quiz/index.html",
-    "precache-manifest.3d88325b765a4f4f321cf49881165a6e.js": "/starwars-quiz/precache-manifest.3d88325b765a4f4f321cf49881165a6e.js",
+    "precache-manifest.1a54bc577d1ab4af2d6810fe80ecfee3.js": "/starwars-quiz/precache-manifest.1a54bc577d1ab4af2d6810fe80ecfee3.js",
     "service-worker.js": "/starwars-quiz/service-worker.js",
-    "static/css/main.9bb871de.chunk.css.map": "/starwars-quiz/static/css/main.9bb871de.chunk.css.map",
-    "static/js/2.618a881c.chunk.js.LICENSE.txt": "/starwars-quiz/static/js/2.618a881c.chunk.js.LICENSE.txt",
+    "static/css/main.752c9d56.chunk.css.map": "/starwars-quiz/static/css/main.752c9d56.chunk.css.map",
+    "static/js/2.ac403027.chunk.js.LICENSE.txt": "/starwars-quiz/static/js/2.ac403027.chunk.js.LICENSE.txt",
     "static/media/BannerBlue.png": "/starwars-quiz/static/media/BannerBlue.5faf5cb4.png",
     "static/media/BannerOrange.png": "/starwars-quiz/static/media/BannerOrange.015d7b5b.png",
     "static/media/BannerPINK.png": "/starwars-quiz/static/media/BannerPINK.512ea495.png",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.38eb46aa.js",
-    "static/js/2.618a881c.chunk.js",
-    "static/css/main.9bb871de.chunk.css",
-    "static/js/main.7bfb30fb.chunk.js"
+    "static/js/2.ac403027.chunk.js",
+    "static/css/main.752c9d56.chunk.css",
+    "static/js/main.341faa07.chunk.js"
   ]
 }
